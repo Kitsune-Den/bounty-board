@@ -10,11 +10,23 @@
       "description": "Server-side mod to reduce player-vs-player damage for longer firefights. Configurable multiplier. Must NOT touch PvE damage. Every PvP server admin wants this — existing mods are all dead.",
       "status": "open",
       "difficulty": 2,
-      "categories": ["high", "kc"],
+      "categories": [
+        "high",
+        "kc"
+      ],
       "tags": [
-        { "label": "High Demand", "variant": "high" },
-        { "label": "Server-Side", "variant": "server" },
-        { "label": "🦊 KC Feature", "variant": "kc" }
+        {
+          "label": "High Demand",
+          "variant": "high"
+        },
+        {
+          "label": "Server-Side",
+          "variant": "server"
+        },
+        {
+          "label": "🦊 KC Feature",
+          "variant": "kc"
+        }
       ],
       "link": {
         "label": "Forum Thread ↗",
@@ -27,9 +39,14 @@
       "description": "Wire specific containers to specific workstations — like the electrical system but for crafting. Chain stations: Forge → Mixer → Workbench. Not global access. Nothing like this exists yet.",
       "status": "open",
       "difficulty": 3,
-      "categories": ["high"],
+      "categories": [
+        "high"
+      ],
       "tags": [
-        { "label": "High Demand", "variant": "high" }
+        {
+          "label": "High Demand",
+          "variant": "high"
+        }
       ],
       "link": {
         "label": "Forum Thread ↗",
@@ -42,10 +59,18 @@
       "description": "Disable or zero-out zombie block damage without breaking AI pathfinding. Removing \"destroyblocks\" from XML freezes zombies entirely. Existing Nexus mods are outdated or broken.",
       "status": "partial",
       "difficulty": 2,
-      "categories": ["high"],
+      "categories": [
+        "high"
+      ],
       "tags": [
-        { "label": "High Demand", "variant": "high" },
-        { "label": "Server-Side", "variant": "server" }
+        {
+          "label": "High Demand",
+          "variant": "high"
+        },
+        {
+          "label": "Server-Side",
+          "variant": "server"
+        }
       ],
       "link": {
         "label": "Forum Thread ↗",
@@ -58,9 +83,14 @@
       "description": "V2.0 removed dynamic weather. Players want rain, snow, and fog back — affecting gameplay, temperature, and biome hazards. Some community attempts exist but quality varies wildly.",
       "status": "partial",
       "difficulty": 3,
-      "categories": ["high"],
+      "categories": [
+        "high"
+      ],
       "tags": [
-        { "label": "High Demand", "variant": "high" }
+        {
+          "label": "High Demand",
+          "variant": "high"
+        }
       ],
       "link": {
         "label": "Forum Thread ↗",
@@ -73,9 +103,14 @@
       "description": "V2.0 replaced mix-and-match clothing with preset outfits. Players want individual piece selection back, plus immersive badge replacements (gas masks, filters instead of magic badges).",
       "status": "partial",
       "difficulty": 2,
-      "categories": ["high"],
+      "categories": [
+        "high"
+      ],
       "tags": [
-        { "label": "High Demand", "variant": "high" }
+        {
+          "label": "High Demand",
+          "variant": "high"
+        }
       ],
       "link": {
         "label": "Forum Thread ↗",
@@ -88,10 +123,19 @@
       "description": "Server admins can't find compatible server-side mods. No curated source exists — they bounce between Nexus, forums, and GitHub hoping things work. Need a version-tagged, searchable mod library.",
       "status": "open",
       "difficulty": 2,
-      "categories": ["admin", "kc"],
+      "categories": [
+        "admin",
+        "kc"
+      ],
       "tags": [
-        { "label": "Server Admin", "variant": "admin" },
-        { "label": "🦊 KC Feature", "variant": "kc" }
+        {
+          "label": "Server Admin",
+          "variant": "admin"
+        },
+        {
+          "label": "🦊 KC Feature",
+          "variant": "kc"
+        }
       ],
       "link": {
         "label": "Forum Thread ↗",
@@ -104,11 +148,23 @@
       "description": "Hybrid servers need clean per-zone PvP toggling. Safe zones around traders, PvP in wilderness. Currently requires complex CSMM/CPM config with no visual interface.",
       "status": "partial",
       "difficulty": 2,
-      "categories": ["admin", "kc"],
+      "categories": [
+        "admin",
+        "kc"
+      ],
       "tags": [
-        { "label": "Server Admin", "variant": "admin" },
-        { "label": "Server-Side", "variant": "server" },
-        { "label": "🦊 KC Feature", "variant": "kc" }
+        {
+          "label": "Server Admin",
+          "variant": "admin"
+        },
+        {
+          "label": "Server-Side",
+          "variant": "server"
+        },
+        {
+          "label": "🦊 KC Feature",
+          "variant": "kc"
+        }
       ],
       "link": {
         "label": "Forum Thread ↗",
@@ -121,10 +177,19 @@
       "description": "Running 7D2D as a proper service (auto-restart, start on boot) is surprisingly hard. KitsuneCommand already handles server lifecycle management out of the box.",
       "status": "shipped",
       "difficulty": 1,
-      "categories": ["admin", "kc"],
+      "categories": [
+        "admin",
+        "kc"
+      ],
       "tags": [
-        { "label": "Server Admin", "variant": "admin" },
-        { "label": "🦊 KC Feature", "variant": "kc" }
+        {
+          "label": "Server Admin",
+          "variant": "admin"
+        },
+        {
+          "label": "🦊 KC Feature",
+          "variant": "kc"
+        }
       ],
       "link": {
         "label": "KitsuneCommand ↗",
@@ -137,9 +202,14 @@
       "description": "Co-op players exploring in different directions can't share discovered map data. Need party-synced fog-of-war or a craftable \"map table\" where players merge their maps.",
       "status": "open",
       "difficulty": 3,
-      "categories": ["qol"],
+      "categories": [
+        "qol"
+      ],
       "tags": [
-        { "label": "Quality of Life", "variant": "qol" }
+        {
+          "label": "Quality of Life",
+          "variant": "qol"
+        }
       ],
       "link": {
         "label": "Forum Thread ↗",
@@ -152,9 +222,14 @@
       "description": "Coffee machines, ovens, appliances as functional crafting stations. JaxTeller718's beloved mod broke in V2.x. Community wants it updated or rebuilt. \"It's the little things.\"",
       "status": "partial",
       "difficulty": 2,
-      "categories": ["qol"],
+      "categories": [
+        "qol"
+      ],
       "tags": [
-        { "label": "Quality of Life", "variant": "qol" }
+        {
+          "label": "Quality of Life",
+          "variant": "qol"
+        }
       ],
       "link": {
         "label": "Forum Thread ↗",
@@ -167,10 +242,18 @@
       "description": "Drones are too easy to acquire. Needs higher crafting requirements per quality tier — more robotics parts, electronics. A progression balance mod, not removal.",
       "status": "open",
       "difficulty": 1,
-      "categories": ["qol"],
+      "categories": [
+        "qol"
+      ],
       "tags": [
-        { "label": "Quality of Life", "variant": "qol" },
-        { "label": "Server-Side", "variant": "server" }
+        {
+          "label": "Quality of Life",
+          "variant": "qol"
+        },
+        {
+          "label": "Server-Side",
+          "variant": "server"
+        }
       ],
       "link": {
         "label": "Forum Thread ↗",
@@ -183,14 +266,130 @@
       "description": "Returning players want 3 forge slots (was available pre-V1.0), more backpack slots, and more vehicle storage. Simple XML mods but hard to find updated V2.x versions.",
       "status": "partial",
       "difficulty": 1,
-      "categories": ["qol"],
+      "categories": [
+        "qol"
+      ],
       "tags": [
-        { "label": "Quality of Life", "variant": "qol" },
-        { "label": "Server-Side", "variant": "server" }
+        {
+          "label": "Quality of Life",
+          "variant": "qol"
+        },
+        {
+          "label": "Server-Side",
+          "variant": "server"
+        }
       ],
       "link": {
         "label": "Forum Thread ↗",
         "url": "https://community.thefunpimps.com/threads/v1-2-mods.43783/"
+      }
+    },
+    {
+      "id": "BB-013",
+      "title": "Server-Side Content Limits & EAC Compatibility Guide",
+      "description": "Server admins need clarity on what can be modded server-side (XML, Harmony) without requiring clients to download assets (icons, models, sounds) and which modifications break EAC. A definitive reference would prevent wasted effort and improve public server onboarding.",
+      "status": "open",
+      "difficulty": 2,
+      "categories": [
+        "admin"
+      ],
+      "tags": [
+        {
+          "label": "Server Admin",
+          "variant": "admin"
+        },
+        {
+          "label": "Server-Side",
+          "variant": "server"
+        }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/whats-possible-that-does-not-require-extra-steps.47194/"
+      }
+    },
+    {
+      "id": "BB-014",
+      "title": "Vending Machine Overhaul (Wilderness Loot & Economy)",
+      "description": "Make wilderness vending machines more immersive: working VMs accept old cash at scaled prices without restocking, broken VMs salvage for food/drinks with bonuses. Adds economy depth and salvage gameplay variety.",
+      "status": "open",
+      "difficulty": 2,
+      "categories": [
+        "qol"
+      ],
+      "tags": [
+        {
+          "label": "Quality of Life",
+          "variant": "qol"
+        }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/vending-machine-overhaul.47044/"
+      }
+    },
+    {
+      "id": "BB-015",
+      "title": "Toggle Trader Protection Zones",
+      "description": "Server admins want to disable trader area protection to clean up trash/broken blocks, then optionally re-enable it to prevent zombie damage. Current system locks edits permanently.",
+      "status": "open",
+      "difficulty": 2,
+      "categories": [
+        "admin"
+      ],
+      "tags": [
+        {
+          "label": "Server Admin",
+          "variant": "admin"
+        },
+        {
+          "label": "Server-Side",
+          "variant": "server"
+        }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/disabling-trader-protection.34844/"
+      }
+    },
+    {
+      "id": "BB-016",
+      "title": "Player-Requested Airdrops via Flares",
+      "description": "Replace automatic airdrops with craftable flares that players throw to call drops within 12-24 hours. Different flare colors request specific supplies (weapons, food, medical). Adds strategic resource control.",
+      "status": "open",
+      "difficulty": 2,
+      "categories": [
+        "high"
+      ],
+      "tags": [
+        {
+          "label": "High Demand",
+          "variant": "high"
+        }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/manually-requested-airdrops.47043/"
+      }
+    },
+    {
+      "id": "BB-017",
+      "title": "5.1/7.1 Surround Sound Enabler",
+      "description": "Enable multichannel audio output for better spatial awareness (especially zombies behind you). Current stereo-only output wastes speaker systems and gives poor directional cues for headphone users.",
+      "status": "open",
+      "difficulty": 2,
+      "categories": [
+        "qol"
+      ],
+      "tags": [
+        {
+          "label": "Quality of Life",
+          "variant": "qol"
+        }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/5-1-7-1-surround-audio-for-7-days-to-die.46887/"
       }
     }
   ]
