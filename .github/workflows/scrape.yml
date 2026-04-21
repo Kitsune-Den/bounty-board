@@ -1,0 +1,52 @@
+name: Weekly Forum Scrape
+
+on:
+  schedule:
+    # Sundays 08:00 UTC (~1am MST / 3am EST)
+    - cron: '0 8 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Scrape + curate
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          node scripts/scrape-forum.mjs > candidates.json
+          cat candidates.json | node scripts/curate-bounties.mjs
+
+      - name: Regenerate markdown
+        run: node scripts/gen-markdown.mjs
+
+      - name: Open PR with proposed bounties
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: scrape/weekly-${{ github.run_number }}
+          base: main
+          title: "Weekly forum scrape — proposed bounties"
+          commit-message: "weekly forum scrape: proposed new bounties"
+          body: |
+            Automated weekly scrape of the TFP Discussion & Requests forum.
+
+            Claude triaged new threads and proposed the bounties in this diff.
+            Review each entry in `bounties.json`, edit as needed, then merge.
+            Merging triggers the normal deploy + Discord notify.
+          delete-branch: true
+          add-paths: |
+            bounties.json
+            bounty-board.md

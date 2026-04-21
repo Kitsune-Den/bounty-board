@@ -68,3 +68,25 @@ In the repo's Actions secrets:
 - `SFTP_PASSWORD`
 - `SFTP_REMOTE_PATH` (e.g. `/home/kitsuneden/bb.kitsuneden.net`)
 - `DISCORD_WEBHOOK_URL` (optional — notify step is skipped if missing)
+- `ANTHROPIC_API_KEY` (for the weekly scraper)
+
+## Weekly forum scrape (auto-curate)
+
+Runs every Sunday 08:00 UTC (also manually triggerable):
+
+1. Scrapes the first page of [Discussion & Requests](https://community.thefunpimps.com/forums/discussion-and-requests.40/)
+2. Fetches the first post of each thread for context
+3. Filters out any thread URL already in `bounties.json`
+4. Sends the rest to Claude for triage — "is this a real mod request?"
+5. Claude proposes `{id, title, description, status, difficulty, categories, tags, link}` entries
+6. Opens a PR with the proposed additions for you to review + merge
+
+Nothing hits production without your merge. Claude's job is triage + drafting, not committing.
+
+Local dry run:
+
+```bash
+export ANTHROPIC_API_KEY=sk-...
+npm run refresh
+git diff bounties.json
+```

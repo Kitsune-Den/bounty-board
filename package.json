@@ -5,6 +5,12 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/gen-markdown.mjs",
-    "notify": "node scripts/discord-notify.mjs"
+    "notify": "node scripts/discord-notify.mjs",
+    "scrape": "node scripts/scrape-forum.mjs",
+    "curate": "node scripts/curate-bounties.mjs",
+    "refresh": "node scripts/scrape-forum.mjs | node scripts/curate-bounties.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0"
   }
 }
