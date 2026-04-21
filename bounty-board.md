@@ -63,6 +63,15 @@ V2.0 replaced mix-and-match clothing with preset outfits. Players want individua
 
 ---
 
+### BB-016 — Player-Requested Airdrops via Flares
+**Status:** 🔴 Open | **Difficulty:** Medium | **Server-Side:** No/Unknown
+
+Replace automatic airdrops with craftable flares that players throw to call drops within 12-24 hours. Different flare colors request specific supplies (weapons, food, medical). Adds strategic resource control.
+
+**Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/manually-requested-airdrops.47043/)
+
+---
+
 ## ⚔️ Server Admin
 
 ### BB-006 — Server-Side Mod Discovery
@@ -95,6 +104,24 @@ Running 7D2D as a proper service (auto-restart, start on boot) is surprisingly h
 **Link:** [KitsuneCommand ↗](https://kitsunecommand.kitsuneden.net)
 
 **🦊 KitsuneCommand overlap.**
+
+---
+
+### BB-013 — Server-Side Content Limits & EAC Compatibility Guide
+**Status:** 🔴 Open | **Difficulty:** Medium | **Server-Side:** Yes
+
+Server admins need clarity on what can be modded server-side (XML, Harmony) without requiring clients to download assets (icons, models, sounds) and which modifications break EAC. A definitive reference would prevent wasted effort and improve public server onboarding.
+
+**Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/whats-possible-that-does-not-require-extra-steps.47194/)
+
+---
+
+### BB-015 — Toggle Trader Protection Zones
+**Status:** 🔴 Open | **Difficulty:** Medium | **Server-Side:** Yes
+
+Server admins want to disable trader area protection to clean up trash/broken blocks, then optionally re-enable it to prevent zombie damage. Current system locks edits permanently.
+
+**Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/disabling-trader-protection.34844/)
 
 ---
 
@@ -133,6 +160,24 @@ Drones are too easy to acquire. Needs higher crafting requirements per quality t
 Returning players want 3 forge slots (was available pre-V1.0), more backpack slots, and more vehicle storage. Simple XML mods but hard to find updated V2.x versions.
 
 **Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/v1-2-mods.43783/)
+
+---
+
+### BB-014 — Vending Machine Overhaul (Wilderness Loot & Economy)
+**Status:** 🔴 Open | **Difficulty:** Medium | **Server-Side:** No/Unknown
+
+Make wilderness vending machines more immersive: working VMs accept old cash at scaled prices without restocking, broken VMs salvage for food/drinks with bonuses. Adds economy depth and salvage gameplay variety.
+
+**Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/vending-machine-overhaul.47044/)
+
+---
+
+### BB-017 — 5.1/7.1 Surround Sound Enabler
+**Status:** 🔴 Open | **Difficulty:** Medium | **Server-Side:** No/Unknown
+
+Enable multichannel audio output for better spatial awareness (especially zombies behind you). Current stereo-only output wastes speaker systems and gives poor directional cues for headphone users.
+
+**Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/5-1-7-1-surround-audio-for-7-days-to-die.46887/)
 
 ---
 
