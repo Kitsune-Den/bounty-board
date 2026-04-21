@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "lastUpdated": "2026-04-21",
+    "source": "https://community.thefunpimps.com/forums/discussion-and-requests.40/"
+  },
+  "bounties": [
+    {
+      "id": "BB-001",
+      "title": "PvP Damage Rebalancing",
+      "description": "Server-side mod to reduce player-vs-player damage for longer firefights. Configurable multiplier. Must NOT touch PvE damage. Every PvP server admin wants this — existing mods are all dead.",
+      "status": "open",
+      "difficulty": 2,
+      "categories": ["high", "kc"],
+      "tags": [
+        { "label": "High Demand", "variant": "high" },
+        { "label": "Server-Side", "variant": "server" },
+        { "label": "🦊 KC Feature", "variant": "kc" }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/pvp-damage-balance-mod-server-side.44299/"
+      }
+    },
+    {
+      "id": "BB-002",
+      "title": "Linkable Craft-From-Containers",
+      "description": "Wire specific containers to specific workstations — like the electrical system but for crafting. Chain stations: Forge → Mixer → Workbench. Not global access. Nothing like this exists yet.",
+      "status": "open",
+      "difficulty": 3,
+      "categories": ["high"],
+      "tags": [
+        { "label": "High Demand", "variant": "high" }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/linkable-non-global-craft-from-containers-a-like.45189/"
+      }
+    },
+    {
+      "id": "BB-003",
+      "title": "Zombie Block Damage Control",
+      "description": "Disable or zero-out zombie block damage without breaking AI pathfinding. Removing \"destroyblocks\" from XML freezes zombies entirely. Existing Nexus mods are outdated or broken.",
+      "status": "partial",
+      "difficulty": 2,
+      "categories": ["high"],
+      "tags": [
+        { "label": "High Demand", "variant": "high" },
+        { "label": "Server-Side", "variant": "server" }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/zombies-not-attacking-blocks.44254/"
+      }
+    },
+    {
+      "id": "BB-004",
+      "title": "Weather System Restoration",
+      "description": "V2.0 removed dynamic weather. Players want rain, snow, and fog back — affecting gameplay, temperature, and biome hazards. Some community attempts exist but quality varies wildly.",
+      "status": "partial",
+      "difficulty": 3,
+      "categories": ["high"],
+      "tags": [
+        { "label": "High Demand", "variant": "high" }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/badge-replacement-and-weather.43632/"
+      }
+    },
+    {
+      "id": "BB-005",
+      "title": "Modular Clothing Return",
+      "description": "V2.0 replaced mix-and-match clothing with preset outfits. Players want individual piece selection back, plus immersive badge replacements (gas masks, filters instead of magic badges).",
+      "status": "partial",
+      "difficulty": 2,
+      "categories": ["high"],
+      "tags": [
+        { "label": "High Demand", "variant": "high" }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/badge-replacement-and-weather.43632/"
+      }
+    },
+    {
+      "id": "BB-006",
+      "title": "Server-Side Mod Discovery",
+      "description": "Server admins can't find compatible server-side mods. No curated source exists — they bounce between Nexus, forums, and GitHub hoping things work. Need a version-tagged, searchable mod library.",
+      "status": "open",
+      "difficulty": 2,
+      "categories": ["admin", "kc"],
+      "tags": [
+        { "label": "Server Admin", "variant": "admin" },
+        { "label": "🦊 KC Feature", "variant": "kc" }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/where-to-find-server-side-mods.46530/"
+      }
+    },
+    {
+      "id": "BB-007",
+      "title": "PvE/PvP Zone Management",
+      "description": "Hybrid servers need clean per-zone PvP toggling. Safe zones around traders, PvP in wilderness. Currently requires complex CSMM/CPM config with no visual interface.",
+      "status": "partial",
+      "difficulty": 2,
+      "categories": ["admin", "kc"],
+      "tags": [
+        { "label": "Server Admin", "variant": "admin" },
+        { "label": "Server-Side", "variant": "server" },
+        { "label": "🦊 KC Feature", "variant": "kc" }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/perfect-pve-pvp-server.35146/"
+      }
+    },
+    {
+      "id": "BB-008",
+      "title": "Server as System Service",
+      "description": "Running 7D2D as a proper service (auto-restart, start on boot) is surprisingly hard. KitsuneCommand already handles server lifecycle management out of the box.",
+      "status": "shipped",
+      "difficulty": 1,
+      "categories": ["admin", "kc"],
+      "tags": [
+        { "label": "Server Admin", "variant": "admin" },
+        { "label": "🦊 KC Feature", "variant": "kc" }
+      ],
+      "link": {
+        "label": "KitsuneCommand ↗",
+        "url": "https://kitsunecommand.kitsuneden.net"
+      }
+    },
+    {
+      "id": "BB-009",
+      "title": "Shared Map Exploration",
+      "description": "Co-op players exploring in different directions can't share discovered map data. Need party-synced fog-of-war or a craftable \"map table\" where players merge their maps.",
+      "status": "open",
+      "difficulty": 3,
+      "categories": ["qol"],
+      "tags": [
+        { "label": "Quality of Life", "variant": "qol" }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/mod-request-shared-maps.34917/"
+      }
+    },
+    {
+      "id": "BB-010",
+      "title": "Working Devices / Functional Furniture",
+      "description": "Coffee machines, ovens, appliances as functional crafting stations. JaxTeller718's beloved mod broke in V2.x. Community wants it updated or rebuilt. \"It's the little things.\"",
+      "status": "partial",
+      "difficulty": 2,
+      "categories": ["qol"],
+      "tags": [
+        { "label": "Quality of Life", "variant": "qol" }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/what-are-your-top-5-v2-0-mods-currently.44824/"
+      }
+    },
+    {
+      "id": "BB-011",
+      "title": "Drone Crafting Rebalance",
+      "description": "Drones are too easy to acquire. Needs higher crafting requirements per quality tier — more robotics parts, electronics. A progression balance mod, not removal.",
+      "status": "open",
+      "difficulty": 1,
+      "categories": ["qol"],
+      "tags": [
+        { "label": "Quality of Life", "variant": "qol" },
+        { "label": "Server-Side", "variant": "server" }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/drone-mod-request.30047/"
+      }
+    },
+    {
+      "id": "BB-012",
+      "title": "Forge Slots & Inventory Expansion",
+      "description": "Returning players want 3 forge slots (was available pre-V1.0), more backpack slots, and more vehicle storage. Simple XML mods but hard to find updated V2.x versions.",
+      "status": "partial",
+      "difficulty": 1,
+      "categories": ["qol"],
+      "tags": [
+        { "label": "Quality of Life", "variant": "qol" },
+        { "label": "Server-Side", "variant": "server" }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/v1-2-mods.43783/"
+      }
+    }
+  ]
+}

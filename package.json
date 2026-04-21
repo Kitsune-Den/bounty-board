@@ -1,0 +1,10 @@
+{
+  "name": "kitsune-bounty-board",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/gen-markdown.mjs",
+    "notify": "node scripts/discord-notify.mjs"
+  }
+}

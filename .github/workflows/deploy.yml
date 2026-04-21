@@ -1,0 +1,37 @@
+name: Deploy Bounty Board
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2  # need HEAD^ for diff-based Discord notify
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Regenerate markdown from JSON
+        run: node scripts/gen-markdown.mjs
+
+      - name: Deploy via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          server: ${{ secrets.SFTP_HOST }}
+          username: ${{ secrets.SFTP_USER }}
+          password: ${{ secrets.SFTP_PASSWORD }}
+          local_path: "./index.html ./bounties.json ./bounty-board.md ./favicon.gif ./favicon.ico"
+          remote_path: ${{ secrets.SFTP_REMOTE_PATH }}
+          sftp_only: true
+
+      - name: Notify Discord of bounty changes
+        if: success()
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: node scripts/discord-notify.mjs
