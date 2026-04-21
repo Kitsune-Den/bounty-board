@@ -20,13 +20,18 @@ jobs:
       - name: Regenerate markdown from JSON
         run: node scripts/gen-markdown.mjs
 
+      - name: Stage deploy files
+        run: |
+          mkdir -p dist
+          cp index.html bounties.json bounty-board.md favicon.gif favicon.ico dist/
+
       - name: Deploy via SFTP
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           server: ${{ secrets.SFTP_HOST }}
           username: ${{ secrets.SFTP_USER }}
           password: ${{ secrets.SFTP_PASSWORD }}
-          local_path: "./index.html ./bounties.json ./bounty-board.md ./favicon.gif ./favicon.ico"
+          local_path: "./dist/*"
           remote_path: ${{ secrets.SFTP_REMOTE_PATH }}
           sftp_only: true
 
