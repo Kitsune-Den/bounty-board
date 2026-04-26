@@ -1,6 +1,6 @@
 # 7 Days to Die — Community Mod Bounty Board
 
-**Curated by Kitsune Den** | Last updated: 2026-04-21  
+**Curated by Kitsune Den** | Last updated: 2026-04-26  
 Source: [The Fun Pimps Official Forums](https://community.thefunpimps.com/forums/discussion-and-requests.40/) — real requests from real players.
 
 ---
@@ -178,6 +178,15 @@ Make wilderness vending machines more immersive: working VMs accept old cash at 
 Enable multichannel audio output for better spatial awareness (especially zombies behind you). Current stereo-only output wastes speaker systems and gives poor directional cues for headphone users.
 
 **Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/5-1-7-1-surround-audio-for-7-days-to-die.46887/)
+
+---
+
+### BB-018 — Free Rotation of Buildings/Blocks
+**Status:** 🔴 Open | **Difficulty:** Hard | **Server-Side:** No/Unknown
+
+Enable buildings and blocks to be placed at any angle (not just 90° increments) to recreate historically accurate European city layouts with irregular street patterns.
+
+**Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/free-rotation-of-buildings-blocks.47170/)
 
 ---
 
