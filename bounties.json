@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-21",
+    "lastUpdated": "2026-04-26",
     "source": "https://community.thefunpimps.com/forums/discussion-and-requests.40/"
   },
   "bounties": [
@@ -390,6 +390,26 @@
       "link": {
         "label": "Forum Thread ↗",
         "url": "https://community.thefunpimps.com/threads/5-1-7-1-surround-audio-for-7-days-to-die.46887/"
+      }
+    },
+    {
+      "id": "BB-018",
+      "title": "Free Rotation of Buildings/Blocks",
+      "description": "Enable buildings and blocks to be placed at any angle (not just 90° increments) to recreate historically accurate European city layouts with irregular street patterns.",
+      "status": "open",
+      "difficulty": 3,
+      "categories": [
+        "qol"
+      ],
+      "tags": [
+        {
+          "label": "Quality of Life",
+          "variant": "qol"
+        }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/free-rotation-of-buildings-blocks.47170/"
       }
     }
   ]
