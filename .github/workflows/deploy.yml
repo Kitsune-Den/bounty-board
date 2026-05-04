@@ -32,12 +32,12 @@ jobs:
           chmod 600 ~/.ssh/id_ed25519
           ssh-keyscan -H "${{ secrets.VPS_HOST }}" >> ~/.ssh/known_hosts 2>/dev/null
 
-      - name: Deploy dist/ to /var/www/bb.kitsuneden.net
+      - name: Deploy dist/ to VPS
         run: |
           rsync -avz --delete \
             -e "ssh -i ~/.ssh/id_ed25519" \
             ./dist/ \
-            ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/var/www/bb.kitsuneden.net/
+            ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:${{ secrets.VPS_REMOTE_PATH }}
 
       - name: Notify Discord of bounty changes
         if: success()
