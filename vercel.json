@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "node scripts/gen-markdown.mjs && mkdir -p public && cp index.html bounties.json bounty-board.md favicon.gif favicon.ico public/",
+  "outputDirectory": "public",
+  "installCommand": "npm install",
+  "framework": null
+}
