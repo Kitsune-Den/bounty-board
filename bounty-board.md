@@ -1,6 +1,6 @@
 # 7 Days to Die — Community Mod Bounty Board
 
-**Curated by Kitsune Den** | Last updated: 2026-04-21  
+**Curated by Kitsune Den** | Last updated: 2026-05-10  
 Source: [The Fun Pimps Official Forums](https://community.thefunpimps.com/forums/discussion-and-requests.40/) — real requests from real players.
 
 ---
@@ -125,6 +125,15 @@ Server admins want to disable trader area protection to clean up trash/broken bl
 
 ---
 
+### BB-018 — Increase Rainy Weather Duration
+**Status:** 🔴 Open | **Difficulty:** Low | **Server-Side:** No/Unknown
+
+Server admins want granular control over weather duration in biomes.xml but the current duration attribute behavior is unclear. Better documentation or a UI tool for weather tuning would help customize server atmosphere.
+
+**Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/increase-duration-of-rainy-weather.47298/)
+
+---
+
 ## 🎮 Quality of Life
 
 ### BB-009 — Shared Map Exploration
@@ -178,6 +187,15 @@ Make wilderness vending machines more immersive: working VMs accept old cash at 
 Enable multichannel audio output for better spatial awareness (especially zombies behind you). Current stereo-only output wastes speaker systems and gives poor directional cues for headphone users.
 
 **Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/5-1-7-1-surround-audio-for-7-days-to-die.46887/)
+
+---
+
+### BB-019 — Free Rotation of Buildings/Blocks
+**Status:** 🔴 Open | **Difficulty:** Hard | **Server-Side:** No/Unknown
+
+Players want to place blocks at arbitrary angles (not just 90°) to recreate historical European cities with irregular street layouts. This would require engine-level changes to the placement system.
+
+**Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/free-rotation-of-buildings-blocks.47170/)
 
 ---
 
