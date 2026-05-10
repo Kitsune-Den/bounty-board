@@ -1,4 +1,9 @@
-name: Deploy Bounty Board
+name: Notify Discord
+
+# After Vercel auto-deploys on push (via the Vercel ↔ GitHub integration),
+# this workflow runs the Discord webhook to summarize what changed.
+# The actual site deploy is handled entirely by Vercel — no SFTP, no
+# server to babysit.
 
 on:
   push:
@@ -6,7 +11,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  notify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -17,30 +22,7 @@ jobs:
         with:
           node-version: 22
 
-      - name: Regenerate markdown from JSON
-        run: node scripts/gen-markdown.mjs
-
-      - name: Stage deploy files
-        run: |
-          mkdir -p dist
-          cp index.html bounties.json bounty-board.md favicon.gif favicon.ico dist/
-
-      - name: Set up SSH
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.VPS_SSH_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan -H "${{ secrets.VPS_HOST }}" >> ~/.ssh/known_hosts 2>/dev/null
-
-      - name: Deploy dist/ to VPS
-        run: |
-          rsync -avz --delete \
-            -e "ssh -i ~/.ssh/id_ed25519" \
-            ./dist/ \
-            ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:${{ secrets.VPS_REMOTE_PATH }}
-
       - name: Notify Discord of bounty changes
-        if: success()
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: node scripts/discord-notify.mjs
