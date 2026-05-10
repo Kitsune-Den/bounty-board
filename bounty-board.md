@@ -108,11 +108,11 @@ Running 7D2D as a proper service (auto-restart, start on boot) is surprisingly h
 ---
 
 ### BB-013 — Server-Side Content Limits & EAC Compatibility Guide
-**Status:** 🔴 Open | **Difficulty:** Medium | **Server-Side:** Yes
+**Status:** ✅ Shipped | **Difficulty:** Medium | **Server-Side:** Yes
 
 Server admins need clarity on what can be modded server-side (XML, Harmony) without requiring clients to download assets (icons, models, sounds) and which modifications break EAC. A definitive reference would prevent wasted effort and improve public server onboarding.
 
-**Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/whats-possible-that-does-not-require-extra-steps.47194/)
+**Link:** [Reddit write-up ↗](https://www.reddit.com/r/7daystodie/comments/1swdofj/the_technical_envelope_for_click_join_no_download/)
 
 ---
 

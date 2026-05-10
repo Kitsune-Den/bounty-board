@@ -288,7 +288,7 @@
       "id": "BB-013",
       "title": "Server-Side Content Limits & EAC Compatibility Guide",
       "description": "Server admins need clarity on what can be modded server-side (XML, Harmony) without requiring clients to download assets (icons, models, sounds) and which modifications break EAC. A definitive reference would prevent wasted effort and improve public server onboarding.",
-      "status": "open",
+      "status": "shipped",
       "difficulty": 2,
       "categories": [
         "admin"
@@ -304,8 +304,8 @@
         }
       ],
       "link": {
-        "label": "Forum Thread ↗",
-        "url": "https://community.thefunpimps.com/threads/whats-possible-that-does-not-require-extra-steps.47194/"
+        "label": "Reddit write-up ↗",
+        "url": "https://www.reddit.com/r/7daystodie/comments/1swdofj/the_technical_envelope_for_click_join_no_download/"
       }
     },
     {
