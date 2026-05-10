@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-03",
+    "lastUpdated": "2026-05-10",
     "source": "https://community.thefunpimps.com/forums/discussion-and-requests.40/"
   },
   "bounties": [
@@ -394,8 +394,32 @@
     },
     {
       "id": "BB-018",
+      "title": "Increase Rainy Weather Duration",
+      "description": "Server admins want granular control over weather duration in biomes.xml but the current duration attribute behavior is unclear. Better documentation or a UI tool for weather tuning would help customize server atmosphere.",
+      "status": "open",
+      "difficulty": 1,
+      "categories": [
+        "admin"
+      ],
+      "tags": [
+        {
+          "label": "Server Admin",
+          "variant": "admin"
+        },
+        {
+          "label": "Quality of Life",
+          "variant": "qol"
+        }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/increase-duration-of-rainy-weather.47298/"
+      }
+    },
+    {
+      "id": "BB-019",
       "title": "Free Rotation of Buildings/Blocks",
-      "description": "Allow placing blocks and buildings at arbitrary angles (not just 90° increments) to recreate historical European street layouts and irregular urban patterns. Useful for creative builders and VR experiences.",
+      "description": "Players want to place blocks at arbitrary angles (not just 90°) to recreate historical European cities with irregular street layouts. This would require engine-level changes to the placement system.",
       "status": "open",
       "difficulty": 3,
       "categories": [
