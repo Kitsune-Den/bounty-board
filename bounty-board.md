@@ -1,6 +1,6 @@
 # 7 Days to Die — Community Mod Bounty Board
 
-**Curated by Kitsune Den** | Last updated: 2026-04-21  
+**Curated by Kitsune Den** | Last updated: 2026-05-10  
 Source: [The Fun Pimps Official Forums](https://community.thefunpimps.com/forums/discussion-and-requests.40/) — real requests from real players.
 
 ---
@@ -17,11 +17,11 @@ Source: [The Fun Pimps Official Forums](https://community.thefunpimps.com/forums
 ## 🔥 High Demand
 
 ### BB-001 — PvP Damage Rebalancing
-**Status:** 🔴 Open | **Difficulty:** Medium | **Server-Side:** Yes
+**Status:** ✅ Shipped | **Difficulty:** Medium | **Server-Side:** Yes
 
 Server-side mod to reduce player-vs-player damage for longer firefights. Configurable multiplier. Must NOT touch PvE damage. Every PvP server admin wants this — existing mods are all dead.
 
-**Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/pvp-damage-balance-mod-server-side.44299/)
+**Link:** [Kitsune PvP Extended on Nexus ↗](https://www.nexusmods.com/7daystodie/mods/10297)
 
 **🦊 KitsuneCommand overlap.**
 

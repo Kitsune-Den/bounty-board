@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-21",
+    "lastUpdated": "2026-05-10",
     "source": "https://community.thefunpimps.com/forums/discussion-and-requests.40/"
   },
   "bounties": [
@@ -8,7 +8,7 @@
       "id": "BB-001",
       "title": "PvP Damage Rebalancing",
       "description": "Server-side mod to reduce player-vs-player damage for longer firefights. Configurable multiplier. Must NOT touch PvE damage. Every PvP server admin wants this — existing mods are all dead.",
-      "status": "open",
+      "status": "shipped",
       "difficulty": 2,
       "categories": [
         "high",
@@ -29,8 +29,8 @@
         }
       ],
       "link": {
-        "label": "Forum Thread ↗",
-        "url": "https://community.thefunpimps.com/threads/pvp-damage-balance-mod-server-side.44299/"
+        "label": "Kitsune PvP Extended on Nexus ↗",
+        "url": "https://www.nexusmods.com/7daystodie/mods/10297"
       }
     },
     {
