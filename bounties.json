@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-26",
+    "lastUpdated": "2026-05-03",
     "source": "https://community.thefunpimps.com/forums/discussion-and-requests.40/"
   },
   "bounties": [
@@ -395,7 +395,7 @@
     {
       "id": "BB-018",
       "title": "Free Rotation of Buildings/Blocks",
-      "description": "Enable buildings and blocks to be placed at any angle (not just 90° increments) to recreate historically accurate European city layouts with irregular street patterns.",
+      "description": "Allow placing blocks and buildings at arbitrary angles (not just 90° increments) to recreate historical European street layouts and irregular urban patterns. Useful for creative builders and VR experiences.",
       "status": "open",
       "difficulty": 3,
       "categories": [

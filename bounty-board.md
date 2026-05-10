@@ -1,6 +1,6 @@
 # 7 Days to Die — Community Mod Bounty Board
 
-**Curated by Kitsune Den** | Last updated: 2026-04-26  
+**Curated by Kitsune Den** | Last updated: 2026-05-03  
 Source: [The Fun Pimps Official Forums](https://community.thefunpimps.com/forums/discussion-and-requests.40/) — real requests from real players.
 
 ---
@@ -184,7 +184,7 @@ Enable multichannel audio output for better spatial awareness (especially zombie
 ### BB-018 — Free Rotation of Buildings/Blocks
 **Status:** 🔴 Open | **Difficulty:** Hard | **Server-Side:** No/Unknown
 
-Enable buildings and blocks to be placed at any angle (not just 90° increments) to recreate historically accurate European city layouts with irregular street patterns.
+Allow placing blocks and buildings at arbitrary angles (not just 90° increments) to recreate historical European street layouts and irregular urban patterns. Useful for creative builders and VR experiences.
 
 **Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/free-rotation-of-buildings-blocks.47170/)
 
