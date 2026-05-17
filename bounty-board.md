@@ -1,6 +1,6 @@
 # 7 Days to Die — Community Mod Bounty Board
 
-**Curated by Kitsune Den** | Last updated: 2026-05-10  
+**Curated by Kitsune Den** | Last updated: 2026-05-17  
 Source: [The Fun Pimps Official Forums](https://community.thefunpimps.com/forums/discussion-and-requests.40/) — real requests from real players.
 
 ---
@@ -131,6 +131,24 @@ Server admins want to disable trader area protection to clean up trash/broken bl
 Server admins want granular control over weather duration in biomes.xml but the current duration attribute behavior is unclear. Better documentation or a UI tool for weather tuning would help customize server atmosphere.
 
 **Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/increase-duration-of-rainy-weather.47298/)
+
+---
+
+### BB-020 — Server-Side Only Mod Detection/Validation Tool
+**Status:** 🔴 Open | **Difficulty:** Medium | **Server-Side:** Yes
+
+Server admins need a way to identify which mods can run server-side-only vs requiring client downloads. Currently no clear documentation or tooling exists to validate EAC compatibility and client-side requirements before deployment.
+
+**Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/whats-possible-that-does-not-require-extra-steps.47194/)
+
+---
+
+### BB-021 — Block Damage Filter for Weapons (XML)
+**Status:** 🔴 Open | **Difficulty:** Low | **Server-Side:** Yes
+
+Server admins want weapons that damage zombies but not blocks/vehicles for protected zones or newbie-friendly servers. No vanilla way to selectively disable block damage while keeping entity damage.
+
+**Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/guidance-on-weapon-xml-creation.47296/)
 
 ---
 
