@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-10",
+    "lastUpdated": "2026-05-17",
     "source": "https://community.thefunpimps.com/forums/discussion-and-requests.40/"
   },
   "bounties": [
@@ -434,6 +434,54 @@
       "link": {
         "label": "Forum Thread ↗",
         "url": "https://community.thefunpimps.com/threads/free-rotation-of-buildings-blocks.47170/"
+      }
+    },
+    {
+      "id": "BB-020",
+      "title": "Server-Side Only Mod Detection/Validation Tool",
+      "description": "Server admins need a way to identify which mods can run server-side-only vs requiring client downloads. Currently no clear documentation or tooling exists to validate EAC compatibility and client-side requirements before deployment.",
+      "status": "open",
+      "difficulty": 2,
+      "categories": [
+        "admin"
+      ],
+      "tags": [
+        {
+          "label": "Server Admin",
+          "variant": "admin"
+        },
+        {
+          "label": "Server-Side",
+          "variant": "server"
+        }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/whats-possible-that-does-not-require-extra-steps.47194/"
+      }
+    },
+    {
+      "id": "BB-021",
+      "title": "Block Damage Filter for Weapons (XML)",
+      "description": "Server admins want weapons that damage zombies but not blocks/vehicles for protected zones or newbie-friendly servers. No vanilla way to selectively disable block damage while keeping entity damage.",
+      "status": "open",
+      "difficulty": 1,
+      "categories": [
+        "admin"
+      ],
+      "tags": [
+        {
+          "label": "Server Admin",
+          "variant": "admin"
+        },
+        {
+          "label": "Server-Side",
+          "variant": "server"
+        }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/guidance-on-weapon-xml-creation.47296/"
       }
     }
   ]
