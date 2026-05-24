@@ -1,6 +1,6 @@
 # 7 Days to Die — Community Mod Bounty Board
 
-**Curated by Kitsune Den** | Last updated: 2026-05-10  
+**Curated by Kitsune Den** | Last updated: 2026-05-24  
 Source: [The Fun Pimps Official Forums](https://community.thefunpimps.com/forums/discussion-and-requests.40/) — real requests from real players.
 
 ---
@@ -131,6 +131,24 @@ Server admins want to disable trader area protection to clean up trash/broken bl
 Server admins want granular control over weather duration in biomes.xml but the current duration attribute behavior is unclear. Better documentation or a UI tool for weather tuning would help customize server atmosphere.
 
 **Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/increase-duration-of-rainy-weather.47298/)
+
+---
+
+### BB-020 — Mass-Delete Missing Texture Blocks Tool
+**Status:** 🔴 Open | **Difficulty:** Medium | **Server-Side:** No/Unknown
+
+Server admins need a way to bulk-remove "Missing Texture" placeholder blocks (blue squares with question marks) left behind by removed mods. Current Find & Replace tools can't target them efficiently.
+
+**Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/need-help-how-to-mass-delete-missing-texture-blocks-blue-squares-with-question-marks.47332/)
+
+---
+
+### BB-021 — Server-Side Only Content Limits Documentation
+**Status:** 🔴 Open | **Difficulty:** Low | **Server-Side:** Yes
+
+Modders need clear documentation on what's possible server-side without requiring client downloads (custom icons, models, sounds, prefab buttons). Understanding these boundaries helps avoid extra steps for players.
+
+**Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/whats-possible-that-does-not-require-extra-steps.47194/)
 
 ---
 
