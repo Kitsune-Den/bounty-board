@@ -1,6 +1,6 @@
 # 7 Days to Die — Community Mod Bounty Board
 
-**Curated by Kitsune Den** | Last updated: 2026-05-10  
+**Curated by Kitsune Den** | Last updated: 2026-05-31  
 Source: [The Fun Pimps Official Forums](https://community.thefunpimps.com/forums/discussion-and-requests.40/) — real requests from real players.
 
 ---
@@ -131,6 +131,33 @@ Server admins want to disable trader area protection to clean up trash/broken bl
 Server admins want granular control over weather duration in biomes.xml but the current duration attribute behavior is unclear. Better documentation or a UI tool for weather tuning would help customize server atmosphere.
 
 **Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/increase-duration-of-rainy-weather.47298/)
+
+---
+
+### BB-020 — Dart Traps Block Damage Support
+**Status:** 🔴 Open | **Difficulty:** Medium | **Server-Side:** Yes
+
+Dart traps currently cannot damage blocks even when configured with block damage values. Server admins need dart traps that can destroy terrain or structures for more dynamic base defense setups.
+
+**Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/challenge-can-anyone-make-dart-traps-damage-blocks.47428/)
+
+---
+
+### BB-021 — Custom AssetBundle Particles for Turrets
+**Status:** 🔴 Open | **Difficulty:** Medium | **Server-Side:** No/Unknown
+
+Server admins cannot use custom particle effects from asset bundles for automated turret muzzle flashes—only vanilla effects work. This limits custom turret mod variety and branding for themed servers.
+
+**Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/is-it-possible-to-use-custom-assetbundle-particles-for-particlesmuzzlefire-on-autoturret-class.47407/)
+
+---
+
+### BB-022 — Mass Delete Missing Texture Blocks Tool
+**Status:** 🔴 Open | **Difficulty:** Medium | **Server-Side:** No/Unknown
+
+Admins struggle to remove placeholder blocks (blue squares with question marks) left behind by removed mods. No efficient bulk-deletion method exists, forcing tedious manual cleanup.
+
+**Link:** [Forum Thread ↗](https://community.thefunpimps.com/threads/need-help-how-to-mass-delete-missing-texture-blocks-blue-squares-with-question-marks.47332/)
 
 ---
 

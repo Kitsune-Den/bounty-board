@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-10",
+    "lastUpdated": "2026-05-31",
     "source": "https://community.thefunpimps.com/forums/discussion-and-requests.40/"
   },
   "bounties": [
@@ -434,6 +434,74 @@
       "link": {
         "label": "Forum Thread ↗",
         "url": "https://community.thefunpimps.com/threads/free-rotation-of-buildings-blocks.47170/"
+      }
+    },
+    {
+      "id": "BB-020",
+      "title": "Dart Traps Block Damage Support",
+      "description": "Dart traps currently cannot damage blocks even when configured with block damage values. Server admins need dart traps that can destroy terrain or structures for more dynamic base defense setups.",
+      "status": "open",
+      "difficulty": 2,
+      "categories": [
+        "admin"
+      ],
+      "tags": [
+        {
+          "label": "Server Admin",
+          "variant": "admin"
+        },
+        {
+          "label": "Server-Side",
+          "variant": "server"
+        }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/challenge-can-anyone-make-dart-traps-damage-blocks.47428/"
+      }
+    },
+    {
+      "id": "BB-021",
+      "title": "Custom AssetBundle Particles for Turrets",
+      "description": "Server admins cannot use custom particle effects from asset bundles for automated turret muzzle flashes—only vanilla effects work. This limits custom turret mod variety and branding for themed servers.",
+      "status": "open",
+      "difficulty": 2,
+      "categories": [
+        "admin"
+      ],
+      "tags": [
+        {
+          "label": "Server Admin",
+          "variant": "admin"
+        }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/is-it-possible-to-use-custom-assetbundle-particles-for-particlesmuzzlefire-on-autoturret-class.47407/"
+      }
+    },
+    {
+      "id": "BB-022",
+      "title": "Mass Delete Missing Texture Blocks Tool",
+      "description": "Admins struggle to remove placeholder blocks (blue squares with question marks) left behind by removed mods. No efficient bulk-deletion method exists, forcing tedious manual cleanup.",
+      "status": "open",
+      "difficulty": 2,
+      "categories": [
+        "admin"
+      ],
+      "tags": [
+        {
+          "label": "Server Admin",
+          "variant": "admin"
+        },
+        {
+          "label": "Quality of Life",
+          "variant": "qol"
+        }
+      ],
+      "link": {
+        "label": "Forum Thread ↗",
+        "url": "https://community.thefunpimps.com/threads/need-help-how-to-mass-delete-missing-texture-blocks-blue-squares-with-question-marks.47332/"
       }
     }
   ]
